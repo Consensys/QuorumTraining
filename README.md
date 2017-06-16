@@ -32,7 +32,7 @@ If cakeshop is still running, use `ctrl + c` to end it
 
 1. `cd QuorumNetworkManager`
 2. `./attachToLocalQuorumNode.sh`
-3. `var address = "0xd6dca118da946d6ab68caf859b3e5bbf3c1cc62a"`
+3. `var address = "0xb56cfb0862e544e2f82dd2982e97dc096287846b"`
 4. `var abi = [{"constant":true,"inputs":[],"name":"storedData","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"retVal","type":"uint256"}],"type":"function"},{"inputs":[{"name":"initVal","type":"uint256"}],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"message","type":"string"},{"indexed":false,"name":"newVal","type":"uint256"}],"name":"Change","type":"event"}]`
 5. `var contract = eth.contract(abi).at(address)`
 
