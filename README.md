@@ -55,10 +55,14 @@ In the attached geth console:
 
 3. `var contract = eth.contract(abi).at(address)`
 
-## Get address
+## Get your address
 
 `eth.accounts[0]`
 
 ## View balance
 
-contract.balanceOf(eth.accounts[0])
+`contract.balanceOf(eth.accounts[0])`
+
+## Send token
+
+`contract.transfer("0xe5d46ca6045d5d62e0cf5cabbe07ec13c24ac899", 10, {from:eth.accounts[0]})`
