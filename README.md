@@ -1,5 +1,4 @@
 # QuorumTraining
-QuorumTraining
 If you are looking for the details of the Training that was presented on the 15th/16th June 2017 you can find it here:
 
 [https://github.com/ConsenSys/QuorumTraining/blob/master/TrainingOld.md](https://github.com/ConsenSys/QuorumTraining/blob/master/TrainingOld.md)
