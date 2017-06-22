@@ -23,7 +23,7 @@ const TitleComponent = ({openMenu}) => {
   return (
 		<div style={styles.div}>
       <Paper zDepth={1} style={styles.header}>
-        <h2>Quorum Demo</h2>
+        <h2>Welcome to the Quorum Training Platform</h2>
       </Paper>
     </div>
   )

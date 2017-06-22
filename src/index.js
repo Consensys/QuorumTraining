@@ -15,9 +15,12 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme'
 import Paper from 'material-ui/Paper'
 
+import { updateBalances } from './actionCreators'
 import Title from './components/Title'
 import LeftMenu from './components/LeftMenu'
 import Home from './containers/Home'
+import Bob from './containers/bob'
+import Alice from './containers/alice'
 
 injectTapEventPlugin();
 
@@ -75,6 +78,15 @@ render(
             <Paper zDepth={1} style={styles.paperRight}>
               <Route exact path="/" component={Home}/>
               <Route path="/home" component={Home}/>
+              <Route path="/quorum" component={Bob}/>
+              <Route path="/quorum_start" component={Bob}/>
+              <Route path="/quorum_join" component={Bob}/>
+              <Route path="/quorum_reconnect" component={Bob}/>
+              <Route path="/accounts" component={Bob}/>
+              <Route path="/contracts" component={Bob}/>
+              <Route path="/transactions" component={Alice}/>
+              <Route path="/networkstatus" component={Alice}/>
+              <Route path="/settings" component={Alice}/>
             </Paper>
           </div>
 
