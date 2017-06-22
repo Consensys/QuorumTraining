@@ -44,12 +44,14 @@ const styles = {
   paperLeft:{
     flex: 1,
     maxWidth: 240,
-    height: 600,
+    height: '100%',
+    minHeight: 800,
     margin: 5,
     textAlign: 'left',
   },
   paperRight:{
-    height: 600,
+    height: '100%',
+    minHeight: 800,
     padding: 20,
     flex: 5,
     margin: 5,
