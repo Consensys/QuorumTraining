@@ -18,7 +18,7 @@ const LeftMenuComponent = withRouter(({history}) => {
 	return (
     <List>
       <ListItem primaryText="Home" leftIcon={<ActionHome />} onClick={() => history.push('/home')}/>
-      <ListItem primaryText="Quorum" leftIcon={<HardwareDeviceHub />} rightIcon={<NavigationChevronRight />} onClick={() => history.push('/home')}/>
+      <ListItem primaryText="Quorum" leftIcon={<HardwareDeviceHub />} rightIcon={<NavigationChevronRight />} onClick={() => history.push('/quorumstart')}/>
       <ListItem primaryText="Accounts" leftIcon={<ActionAccountBalanceWallet />} onClick={() => history.push('/home')}/>
       <ListItem primaryText="Contracts" leftIcon={<DeviceDeveloperMode />} onClick={() => history.push('/home')}/>
       <ListItem primaryText="Transactions" leftIcon={<ActionCompareArrows />} onClick={() => history.push('/home')}/>
