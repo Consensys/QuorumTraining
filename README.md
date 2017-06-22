@@ -17,7 +17,7 @@ We are completely reworking the exercises that are part of the Quorum training. 
 
 The wireframes for the training platform can be found here:
 
-[https://app.moqups.com/petermunnings@gmail.com/rvlq3ettVN/edit/page/afcd78a7c](https://app.moqups.com/petermunnings@gmail.com/rvlq3ettVN/edit/page/afcd78a7c)
+[https://app.moqups.com/rvlq3ettVN](https://app.moqups.com/rvlq3ettVN)
 
 The Quorum training platform relies heavily on the [Quorum Network Manager](https://github.com/ConsenSys/QuorumNetworkManager)
 
