@@ -17,10 +17,12 @@ import Paper from 'material-ui/Paper'
 
 import { updateBalances } from './actionCreators'
 import Title from './components/Title'
-import LeftMenu from './components/LeftMenu'
+import LeftMenu from './containers/LeftMenu'
 import Home from './containers/Home'
+import QuorumSubMenuComponent from './containers/QuorumSubMenu'
 import QuorumStart from './containers/QuorumStart'
 import QuorumJoin from './containers/QuorumJoin'
+import QuorumReconnect from './containers/QuorumReconnect'
 import Settings from './containers/Settings'
 
 injectTapEventPlugin();
@@ -84,7 +86,7 @@ render(
               <Route path="/quorum" component={QuorumStart}/>
               <Route path="/quorumstart" component={QuorumStart}/>
               <Route path="/quorumjoin" component={QuorumJoin}/>
-              <Route path="/quorumreconnect" component={Home}/>
+              <Route path="/quorumreconnect" component={QuorumReconnect}/>
               <Route path="/accounts" component={Home}/>
               <Route path="/contracts" component={Home}/>
               <Route path="/transactions" component={Home}/>
@@ -92,7 +94,7 @@ render(
               <Route path="/settings" component={Settings}/>
             </Paper>
           </div>
-
+          <QuorumSubMenuComponent />
         </div>
       </Router>
 

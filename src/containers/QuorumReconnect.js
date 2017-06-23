@@ -1,20 +1,20 @@
 import { connect } from 'react-redux'
-import { updateBlockchainSelection } from '../actionCreators' 
-import HomeComponent from '../components/Home'
+import { updateConsensusType } from '../actionCreators' 
+import QuorumReconnectComponent from '../components/QuorumReconnect'
 
 const mapStateToProps = (state) => ({
 	currentUser: state.currentUser,
-  selectedBlockchain: state.settings.selectedBlockchain
+  selectedConsensusType: state.quorum.selectedConsensusType
 })
 
 const mapDispatchToProps = {
-  updateBlockchainSelection
+  updateConsensusType
 }
 
-const Home = connect(
+const QuorumReconnect = connect(
   mapStateToProps,
   mapDispatchToProps
-)(HomeComponent)
+)(QuorumReconnectComponent)
 
-export default Home
+export default QuorumReconnect
 

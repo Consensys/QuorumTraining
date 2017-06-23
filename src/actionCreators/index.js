@@ -6,3 +6,9 @@ export function updateConsensusSelection(selectedConsensusType) {
   }
 }
 
+export function updateShowQuorumSubMenu(show) {
+  return function(dispatch) {
+    dispatch(actions.updateShowQuorumSubMenu(show))
+  }
+}
+
