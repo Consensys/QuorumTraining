@@ -1,4 +1,18 @@
 # QuorumTraining
+
+
+## ⚠️ Project Deprecation Notice ⚠️
+
+QuorumTraining has been deprecated, and we are no longer supporting the project.
+
+It has been replaced by [quorum-dev-quickstart](https://github.com/ConsenSys/quorum-dev-quickstart) that offers wider compatibility with Quorum products
+
+We encourage all users with active projects to migrate to [quorum-dev-quickstart](https://github.com/ConsenSys/quorum-dev-quickstart)
+
+If you have any questions or concerns, please reach out to the ConsenSys protocol engineering team on [#Discord](https://chat.consensys.net) or by [email](mailto:quorum@consensys.net).
+
+## Description
+
 If you are looking for the details of the Training that was presented on the 15th/16th June 2017 you can find it here:
 
 [https://github.com/ConsenSys/QuorumTraining/blob/master/TrainingOld.md](https://github.com/ConsenSys/QuorumTraining/blob/master/TrainingOld.md)
